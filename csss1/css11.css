@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	mix-width:1200px;
+	min-width: 1000px;
+}
+.part1{
+	height: 700px;
+	width: 100%;
+}
+.header_1{
+	background-color:white;
+	width: 100%;
+	height: 200px;
+}
+
+.login{
+	margin-left: 80%;
+}
+.login p,i{
+	display: inline-block;
+	margin-top: 20px;
+}
+.logo{
+	text-align: center;
+	margin-top: -20px;
+}
+.logo h1{
+	font-size: 70px;
+	font-weight:bold;
+}
+.logo p{
+	font-size: 15px;
+}
+.list{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom:40px;
+}
+.list a:link{
+	padding-right: 65px;
+	color: black;
+	text-decoration: none;
+}
+.list a:visited{
+	padding-right: 65px;
+	color: black;
+	text-decoration: none;
+}
+.list a:hover{
+	padding-right: 65px;
+	color: black;
+	text-decoration: none;
+}
+/*header 1 end*/
+
+.parant_content{
+	width: 100%;
+	height: 600px;
+	background-color: rgb(146,192,189);
+}
+.photo_1 img{
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.photo_2 img{
+	width: 300px;
+    float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.content_2{
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+	text-align: center;
+}
+.content_2 button{
+	width: 250px;
+	height: 65px;
+	background-color:rgb(146,192,189)  ;
+	border: solid;
+	margin-top: 30px;
+}
+.text_1 h1{
+	font-size: 60px;
+	font-weight:bold;
+}
+.text_2 p{
+	font-size: 20px;
+}
+/* parant contant 1 end*/
+/*part 1 end*/
+
+
+.part2{
+	width: 100%;
+	height: 600px;
+	background-color:white;
+	position: relative;
+}
+
+.contant_3{
+	width: 60%;
+	height: 500px;
+	background-color: #ccd1d7;
+	position: absolute;
+	top: 100px;
+}
+.about-1 img{
+	width: 250px;
+	position: absolute;
+	left: 100px;
+	top: 75px;
+	
+}
+.about-2 p{
+	font-size: 60px;
+	position: absolute;
+	top:150px;
+	left: 500px;
+}
+.about-2 a{
+	font-weight: bolder;
+	font-size: 25px;
+	position: absolute;
+	top: 240px;
+	left: 540px;
+}
+.about-2 a:link{
+	color: black;
+	text-decoration: underline;
+}
+.about-2 a:visited{
+	color: black;
+	text-decoration: underline;
+}
+.contant_4{
+	width:35%;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 60%
+}
+.about_3 img{
+	width: 90%;
+	height: 500px;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.about_4 h1{
+	position: absolute;
+	left: 100px;
+	top:430px;
+	font-size: 40px;
+}
+/* parant contant 4 end*/
+/*part 2 end*/
+
+
+.part3{
+	width: 100%;
+	height: 600px;
+	background-color:white;
+	position: relative;
+}
+.contant_5{
+	width:35%;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	
+}
+.photo_3 img{
+	width: 90%;
+	height: 500px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.about-6 a{
+	font-weight: bolder;
+	font-size: 25px;
+	position: absolute;
+	top: 420px;
+	left: 30px;;
+}
+.about-6 a:link{
+	color: black;
+	text-decoration: underline;
+	font-size: 50px;
+}
+.about-6 a:visited{
+	color: black;
+	text-decoration: underline;
+}
+.contant_6{
+	width: 60%;
+	height: 500px;
+	background-color:white;
+	position: absolute;
+	top: 100px;
+	left: 40%;
+}
+.photo_4 img{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	right: 67px;
+	top: 0px;
+}
+.about_8 p{
+	font-size: 60px;
+	position: absolute;
+	top:50px;
+	left: 50px;
+}
+.about_8 a{
+	font-weight: bolder;
+	font-size: 25px;
+	position: absolute;
+	top: 120px;
+	left: 55px;
+}
+.about_8 a:link{
+	color: black;
+	text-decoration: underline;
+}
+.about_8 a:visited{
+	color: black;
+	text-decoration: underline;
+}
+/*part 3 end*/
+
+
+.part4{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img1/img_14.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: scroll;
+	background-position: center;
+	margin-top: 50px;
+}
+.header_2{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	text-align: center;
+}
+/* header_2 end*/
+.contant_7{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.contant_7 p{
+	margin-top: 25px;
+	font-size: 20px;
+}
+.contant_7 button{
+	width: 250px;
+	height: 50px;
+	background-color:black;
+	color: white;
+	margin-top: 50px;
+	border: none;
+}
+/*part 4 end*/
+
+
+.part5{
+	width: 100%;
+	height: 500px;
+	background-color:white;
+	margin-top: 50px;
+}
+.header_3{
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	text-align: center;
+}
+/* header_3 end*/
+.contant_8 img{
+	width: 300px;
+	height: 250px;
+	margin-right: 30px;
+}
+.img_1{
+	margin-left: 15px
+}
+.contant_9{
+	display: inline-block;
+	margin-left: 50px;
+}
+.contant_10{
+	display: inline-block;
+	margin-left: 175px;
+	
+}
+.contant_11{
+	display: inline-block;
+	margin-left: 170px;
+}
+.contant_12{
+	display: inline-block;
+	margin-left: 200px;
+}
+/*part 5 end*/
+
+
+.part6{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	margin-top: 50px;
+}
+.header_4{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	text-align: center;
+}
+/* header_4 end*/
+.contant_13 img{
+	width: 250px;
+	height: 300px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+/*part 6 end*/
+
+
+.part7{
+	width: 100%;
+	height: 300px;
+	background-color:#EBEBEB;
+	margin-top: 30px;
+	text-align: center;
+}
+ .contant_14 {
+	display: inline-block;
+}
+.contant_14 h1{
+	margin-top: 60px;
+}
+.contant_14 form{
+	margin-top: 50px;
+}
+.contant_14 .email{
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	color: black;
+	border: solid 1px ;
+	text-indent: 15px;
+}
+.contant_14 .submit{
+	width: 200px;
+	height: 42px;
+	background-color:#E84A03;
+	color: black;
+	border: none;
+}
+/*part 7 end*/
+
+
+.part8{
+	width: 100%;
+	height: 250px;
+	background-color:white;
+	margin-top: 30px;
+}
+.parant_content_4{
+	position: relative;
+}
+ .contant_15 {
+	position: absolute;
+	 top: 50px;
+	 left: 70px;
+	 
+}
+.contant_16{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+.contant_17{
+	position: absolute;
+	top: 50px;
+	left: 500px;
+}
+.contant_18{
+	position: absolute;
+	top: 50px;
+	left: 700px;
+}
+.contant_19{
+	position: absolute;
+	top: 50px;
+	left:900px;
+}
+.contant_20{
+	position: absolute;
+	top: 50px;
+	left:1050px;
+	color: gray
+}
+/* parant contant 4 end*/
+/* part 8 end*/
+
+
+                                                                       /*  end*/
+
+
+
